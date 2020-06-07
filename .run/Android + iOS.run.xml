@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Android + iOS Login" type="Multirun" factoryName="Multirun" singleton="false" separateTabs="true" startOneByOne="false" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+    <runConfiguration name="iOSLoginSuite" type="TestNG" />
+    <runConfiguration name="AndroidLoginSuite" type="TestNG" />
+    <method v="2" />
+  </configuration>
+</component>

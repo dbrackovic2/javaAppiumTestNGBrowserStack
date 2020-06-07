@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Android Login Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login with company email/pass account Google Pixel 4(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account Google Pixel 4(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account Google Pixel 4(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account Google Pixel 4(failed) -->
+  <test thread-count="5" name="Login with google account account Google Pixel 4(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account Google Pixel 4(failed) -->
+  <test thread-count="5" name="Login with company email/pass account Google Pixel 4 XL(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4XL"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account Google Pixel 4 XL(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account Google Pixel 4 XL(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4XL"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account Google Pixel 4 XL(failed) -->
+  <test thread-count="5" name="Login with google account account Google Pixel 4 XL(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4XL"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account Google Pixel 4 XL(failed) -->
+  <test thread-count="5" name="Login with company email/pass account Google Pixel 3(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.3"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account Google Pixel 3(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account Google Pixel 3(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.3"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account Google Pixel 3(failed) -->
+  <test thread-count="5" name="Login with google account account Google Pixel 3(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.3"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account Google Pixel 3(failed) -->
+  <test thread-count="5" name="Login with company email/pass account Samsung Galaxy S20(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account Samsung Galaxy S20(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account Samsung Galaxy S20(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account Samsung Galaxy S20(failed) -->
+  <test thread-count="5" name="Login with google account account Samsung Galaxy S20(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account Samsung Galaxy S20(failed) -->
+  <test thread-count="5" name="Login with company email/pass account Samsung Galaxy S20 Plus(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20plus"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account Samsung Galaxy S20 Plus(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account Samsung Galaxy S20 Plus(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20plus"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account Samsung Galaxy S20 Plus(failed) -->
+  <test thread-count="5" name="Login with google account account Samsung Galaxy S20 Plus(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="samsung.galaxy.s20plus"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="openGoogleOAuth"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="loginwithGoogleAccount"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account Samsung Galaxy S20 Plus(failed) -->
+  <test thread-count="5" name="Login with company email/pass account OnePlus 7T(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="one.plus.7t"/>
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="loginwithEmployerAccount"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with company email/pass account OnePlus 7T(failed) -->
+  <test thread-count="5" name="Login with employee email/pass account OnePlus 7T(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="one.plus.7t"/>
+    <classes>
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="loginwithEmployeeAccount"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+    </classes>
+  </test> <!-- Login with employee email/pass account OnePlus 7T(failed) -->
+  <test thread-count="5" name="Login with google account account OnePlus 7T(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="one.plus.7t"/>
+    <classes>
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="openGoogleOAuth"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="loginwithGoogleAccount"/>
+          <include name="setUpAppium"/>
+          <include name="openLoginPage"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+    </classes>
+  </test> <!-- Login with google account account OnePlus 7T(failed) -->
+  <test thread-count="5" name="Login with wrong email OnePlus 7T(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="one.plus.7t"/>
+    <classes>
+      <class name="testcases.login.android.LoginWrongEmailAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="setUpPage"/>
+          <include name="tryLoginWrongPassword"/>
+          <include name="verifyWrongEmail"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWrongEmailAndroid -->
+    </classes>
+  </test> <!-- Login with wrong email OnePlus 7T(failed) -->
+  <test thread-count="5" name="Login with wrong password OnePlus 7T(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="one.plus.7t"/>
+    <classes>
+      <class name="testcases.login.android.LoginWrongPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyWrongPassword"/>
+          <include name="afterMethod"/>
+          <include name="setUpPage"/>
+          <include name="tryLoginWrongPassword"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWrongPassAndroid -->
+    </classes>
+  </test> <!-- Login with wrong password OnePlus 7T(failed) -->
+</suite> <!-- Failed suite [Android Login Test Suite] -->

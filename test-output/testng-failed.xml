@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Android Register Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Email password Employee account registration Android Google Pixel 4(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4"/>
+    <classes>
+      <class name="testcases.register.android.EmailPasswordEmployeeRegistration">
+        <methods>
+          <include name="chooseEmployeeAccountType"/>
+          <include name="skipVideoEmployee"/>
+          <include name="clickRegister"/>
+          <include name="chooseAvailabilityEmployee"/>
+          <include name="enterEmployeeEmail"/>
+          <include name="chooseSoftwareSystemsEmployee"/>
+          <include name="chooseHourlyRateEmployee"/>
+          <include name="setUpAppium"/>
+          <include name="agreeToTerms"/>
+          <include name="choosePracticeTypeEmployee"/>
+          <include name="afterClass"/>
+          <include name="allowPermissions"/>
+          <include name="enterEmailCode"/>
+          <include name="openRegisterPage"/>
+          <include name="proceedToProfileEmployee"/>
+          <include name="enterEmployeePassword"/>
+          <include name="tearDownAppium"/>
+          <include name="verifyEmail"/>
+          <include name="setUpPage"/>
+          <include name="chooseTravelOptionEmployee"/>
+          <include name="afterMethod"/>
+          <include name="addCertificateEmployee"/>
+          <include name="enterEmployeeData"/>
+          <include name="confirmEmployeePassword"/>
+          <include name="chooseEmployeeProfession"/>
+          <include name="openLoginPage"/>
+          <include name="chooseLanguageEmployee"/>
+        </methods>
+      </class> <!-- testcases.register.android.EmailPasswordEmployeeRegistration -->
+    </classes>
+  </test> <!-- Email password Employee account registration Android Google Pixel 4(failed) -->
+  <test thread-count="5" name="Email password Employer account registration Android Google Pixel 4(failed)">
+    <parameter name="android-version" value="10.0"/>
+    <parameter name="device-name" value="google.pixel.4"/>
+    <classes>
+      <class name="testcases.register.android.EmailPasswordEmployerRegistration">
+        <methods>
+          <include name="enterCompanyData"/>
+          <include name="tearDownAppium"/>
+          <include name="enterCompanyEmail"/>
+          <include name="verifyLoggedin"/>
+          <include name="allowPermissions"/>
+          <include name="afterMethod"/>
+          <include name="proceedToCompanyProfile"/>
+          <include name="setUpAppium"/>
+          <include name="openRegisterPage"/>
+          <include name="openLoginPage"/>
+          <include name="afterClass"/>
+          <include name="clickRegister"/>
+          <include name="enterCompanyPassword"/>
+          <include name="verifyEmail"/>
+          <include name="setUpPage"/>
+          <include name="confirmCompanyPassword"/>
+          <include name="setCompanySoftwareSystems"/>
+          <include name="agreeToTerms"/>
+          <include name="chooseEmployerAccountType"/>
+          <include name="enterEmailCode"/>
+        </methods>
+      </class> <!-- testcases.register.android.EmailPasswordEmployerRegistration -->
+    </classes>
+  </test> <!-- Email password Employer account registration Android Google Pixel 4(failed) -->
+</suite> <!-- Failed suite [Android Register Test Suite] -->

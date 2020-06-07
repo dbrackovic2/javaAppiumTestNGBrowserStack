@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Login Test Suite">
+    <test name="Login with company email/pass account Google Pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account Google Pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account Google Pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email Google pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password Google Pixel">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with company email/pass account Google Pixel 4 XL">
+        <parameter name="device-name" value="google.pixel.4XL" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account Google Pixel 4 XL">
+        <parameter name="device-name" value="google.pixel.4XL" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account Google Pixel 4 XL">
+        <parameter name="device-name" value="google.pixel.4XL" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email Google pixel 4 XL">
+        <parameter name="device-name" value="google.pixel.4XL" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password Google Pixel XL">
+        <parameter name="device-name" value="google.pixel.4XL" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with company email/pass account Google Pixel 3">
+        <parameter name="device-name" value="google.pixel.3" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account Google Pixel 3">
+        <parameter name="device-name" value="google.pixel.3" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account Google Pixel 3">
+        <parameter name="device-name" value="google.pixel.3" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email Google pixel 3">
+        <parameter name="device-name" value="google.pixel.3" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password Google Pixel 3">
+        <parameter name="device-name" value="google.pixel.3" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with company email/pass account Samsung Galaxy S20">
+        <parameter name="device-name" value="samsung.galaxy.s20" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account Samsung Galaxy S20">
+        <parameter name="device-name" value="samsung.galaxy.s20" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account Samsung Galaxy S20">
+        <parameter name="device-name" value="samsung.galaxy.s20" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email Samsung Galaxy S20">
+        <parameter name="device-name" value="samsung.galaxy.s20" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password Samsung Galaxy S20">
+        <parameter name="device-name" value="samsung.galaxy.s20" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with company email/pass account Samsung Galaxy S20 Plus">
+        <parameter name="device-name" value="samsung.galaxy.s20plus" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account Samsung Galaxy S20 Plus">
+        <parameter name="device-name" value="samsung.galaxy.s20plus" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account Samsung Galaxy S20 Plus">
+        <parameter name="device-name" value="samsung.galaxy.s20plus" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email Samsung Galaxy S20 Plus">
+        <parameter name="device-name" value="samsung.galaxy.s20plus" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password Samsung Galaxy S20 Plus">
+        <parameter name="device-name" value="samsung.galaxy.s20plus" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with company email/pass account OnePlus 7T">
+        <parameter name="device-name" value="one.plus.7t" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginCompanyEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account OnePlus 7T">
+        <parameter name="device-name" value="one.plus.7t" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginEmployeeEmailPassAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with google account account OnePlus 7T">
+        <parameter name="device-name" value="one.plus.7t" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWithGoogleAccountAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong email OnePlus 7T">
+        <parameter name="device-name" value="one.plus.7t" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongEmailAndroid"/>
+        </classes>
+    </test>
+    <test name="Login with wrong password OnePlus 7T">
+        <parameter name="device-name" value="one.plus.7t" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.login.android.LoginWrongPassAndroid"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Register Test Suite">
+    <test name="Email password Employee account registration Android Google Pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.register.android.EmailPasswordEmployeeRegistration"/>
+        </classes>
+    </test>
+    <test name="Email password Employer account registration Android Google Pixel 4">
+        <parameter name="device-name" value="google.pixel.4" />
+        <parameter name="android-version" value="10.0" />
+        <classes>
+            <class name="testcases.register.android.EmailPasswordEmployerRegistration"/>
+        </classes>
+    </test>
+</suite>

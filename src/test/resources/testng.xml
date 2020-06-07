@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests" thread-count="2" parallel="instances">
+    <suite-files>
+        <suite-file path="./android/android.login.testng.xml" />
+        <suite-file path="./iOS/ios.login.testng.xml" />
+    </suite-files>
+</suite>

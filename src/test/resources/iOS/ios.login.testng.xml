@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS Login Test Suite">
+    <test name="Login with company email/pass account iPhone 11">
+        <parameter name="device-name" value="iphone.11" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginCompanyEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account iPhone 11">
+        <parameter name="device-name" value="iphone.11" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginEmployeeEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong email iPhone 11">
+        <parameter name="device-name" value="iphone.11" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongEmailiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong password iPhone 11">
+        <parameter name="device-name" value="iphone.11" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongPassiOS"/>
+        </classes>
+    </test>
+
+    <test name="Login with company email/pass account iPhone 11 pro">
+        <parameter name="device-name" value="iphone.11pro" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginCompanyEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account iPhone 11 Pro">
+        <parameter name="device-name" value="iphone.11pro" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginEmployeeEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong email iPhone 11 Pro">
+        <parameter name="device-name" value="iphone.11pro" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongEmailiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong password iPhone 11 Pro">
+        <parameter name="device-name" value="iphone.11pro" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongPassiOS"/>
+        </classes>
+    </test>
+
+    <test name="Login with company email/pass account iPhone XS">
+        <parameter name="device-name" value="iphone.XS" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginCompanyEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login with employee email/pass account iPhone XS">
+        <parameter name="device-name" value="iphone.XS" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginEmployeeEmailPassiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong email iPhone 11 XS">
+        <parameter name="device-name" value="iphone.XS" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongEmailiOS"/>
+        </classes>
+    </test>
+    <test name="Login wrong password iPhone XS">
+        <parameter name="device-name" value="iphone.XS" />
+        <parameter name="ios-version" value="13.3" />
+        <classes>
+            <class name="testcases.login.iOS.LoginWrongPassiOS"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,304 @@
+<html>
+<head>
+<title>TestNG:  Login with company email/pass account iPhone 11</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login with company email/pass account iPhone 11</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 25 00:53:29 EEST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>148 seconds (148844 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.login.iOS.LoginCompanyEmailPassiOS.loginwithEmployerAccount()'><b>loginwithEmployerAccount</b><br>Test class: testcases.login.iOS.LoginCompanyEmailPassiOS</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEJANB&apos;, ip: &apos;10.21.25.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appiumLogs: true, browserstack.appium_version: 1.16.0, browserstack.debug: false, browserstack.deviceLogs: true, browserstack.ie.noFlash: false, browserstack.isTargetBased: false, browserstack.minOSVersion: 10.0, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: 5.4.6 QAiPhone 11, bundleID: com.aktech.opentemp, bundleId: com.aktech.opentemp, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-13.3}, networkConnectionEnabled: false, newCommandTimeout: 100, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 13.3, platform: MAC, platformName: iOS, platformVersion: 12.1, projectName: OpenTemp Project, proxy_type: node, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Login with Company email/pa..., takesScreenshot: true, udid: 00008030-000D05301E00802E, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 28404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 42f315b1da3d40caa70d733ee22a4d8570bf8f87
+*** Element info: {Using=xpath, value=(//XCUIElementTypeStaticText[@name=&quot;Email Address&quot;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at pageobjects.LoginScreenPO.loginWithCompanyEmailPassiOS(LoginScreenPO.java:132)
+	at testcases.login.iOS.LoginCompanyEmailPassiOS.loginwithEmployerAccount(LoginCompanyEmailPassiOS.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace489070295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace489070295'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEJANB&apos;, ip: &apos;10.21.25.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appiumLogs: true, browserstack.appium_version: 1.16.0, browserstack.debug: false, browserstack.deviceLogs: true, browserstack.ie.noFlash: false, browserstack.isTargetBased: false, browserstack.minOSVersion: 10.0, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: 5.4.6 QAiPhone 11, bundleID: com.aktech.opentemp, bundleId: com.aktech.opentemp, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-13.3}, networkConnectionEnabled: false, newCommandTimeout: 100, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 13.3, platform: MAC, platformName: iOS, platformVersion: 12.1, projectName: OpenTemp Project, proxy_type: node, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Login with Company email/pa..., takesScreenshot: true, udid: 00008030-000D05301E00802E, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 28404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 42f315b1da3d40caa70d733ee22a4d8570bf8f87
+*** Element info: {Using=xpath, value=(//XCUIElementTypeStaticText[@name=&quot;Email Address&quot;])[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at pageobjects.LoginScreenPO.loginWithCompanyEmailPassiOS(LoginScreenPO.java:132)
+	at testcases.login.iOS.LoginCompanyEmailPassiOS.loginwithEmployerAccount(LoginCompanyEmailPassiOS.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</pre></div></td>
+<td>23</td>
+<td>testcases.login.iOS.LoginCompanyEmailPassiOS@15ca7889</td></tr>
+<tr>
+<td title='testcases.login.iOS.LoginCompanyEmailPassiOS.verifyEmployerLoggedIn()'><b>verifyEmployerLoggedIn</b><br>Test class: testcases.login.iOS.LoginCompanyEmailPassiOS</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEJANB&apos;, ip: &apos;10.21.25.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appiumLogs: true, browserstack.appium_version: 1.16.0, browserstack.debug: false, browserstack.deviceLogs: true, browserstack.ie.noFlash: false, browserstack.isTargetBased: false, browserstack.minOSVersion: 10.0, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: 5.4.6 QAiPhone 11, bundleID: com.aktech.opentemp, bundleId: com.aktech.opentemp, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-13.3}, networkConnectionEnabled: false, newCommandTimeout: 100, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 13.3, platform: MAC, platformName: iOS, platformVersion: 12.1, projectName: OpenTemp Project, proxy_type: node, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Login with Company email/pa..., takesScreenshot: true, udid: 00008030-000D05301E00802E, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 28404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 42f315b1da3d40caa70d733ee22a4d8570bf8f87
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[contains(@name, &quot;Allow&quot;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at pageobjects.LoginScreenPO.openProfilePageiOS(LoginScreenPO.java:27)
+	at testcases.login.iOS.LoginCompanyEmailPassiOS.verifyEmployerLoggedIn(LoginCompanyEmailPassiOS.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1011104118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1011104118'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEJANB&apos;, ip: &apos;10.21.25.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appiumLogs: true, browserstack.appium_version: 1.16.0, browserstack.debug: false, browserstack.deviceLogs: true, browserstack.ie.noFlash: false, browserstack.isTargetBased: false, browserstack.minOSVersion: 10.0, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: 5.4.6 QAiPhone 11, bundleID: com.aktech.opentemp, bundleId: com.aktech.opentemp, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-13.3}, networkConnectionEnabled: false, newCommandTimeout: 100, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 13.3, platform: MAC, platformName: iOS, platformVersion: 12.1, projectName: OpenTemp Project, proxy_type: node, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Login with Company email/pa..., takesScreenshot: true, udid: 00008030-000D05301E00802E, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 28404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 42f315b1da3d40caa70d733ee22a4d8570bf8f87
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[contains(@name, &quot;Allow&quot;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at pageobjects.LoginScreenPO.openProfilePageiOS(LoginScreenPO.java:27)
+	at testcases.login.iOS.LoginCompanyEmailPassiOS.verifyEmployerLoggedIn(LoginCompanyEmailPassiOS.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</pre></div></td>
+<td>5</td>
+<td>testcases.login.iOS.LoginCompanyEmailPassiOS@15ca7889</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.login.iOS.LoginCompanyEmailPassiOS.openApplication()'><b>openApplication</b><br>Test class: testcases.login.iOS.LoginCompanyEmailPassiOS</td>
+<td></td>
+<td>0</td>
+<td>testcases.login.iOS.LoginCompanyEmailPassiOS@15ca7889</td></tr>
+</table><p>
+</body>
+</html>

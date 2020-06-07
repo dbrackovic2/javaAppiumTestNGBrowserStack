@@ -1,0 +1,12 @@
+.idea
+.gradle
+build
+gradle
+screenshots
+build.gradle
+gradlew
+settings.gradle
+gradlew.bat
+allure-results
+data.json
+allure.json

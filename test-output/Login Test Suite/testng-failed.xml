@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Login Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="C:/Users/dejan.b/IdeaProjects/OpenTempAutomatedTests(failed)">
+    <classes>
+      <class name="testcases.login.android.LoginCompanyEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginCompanyEmailPassAndroid -->
+      <class name="testcases.login.android.LoginWrongPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="verifyWrongPassword"/>
+          <include name="afterMethod"/>
+          <include name="setUpPage"/>
+          <include name="tryLoginWrongPassword"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWrongPassAndroid -->
+      <class name="testcases.login.android.LoginWrongEmailAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="setUpPage"/>
+          <include name="tryLoginWrongPassword"/>
+          <include name="verifyWrongEmail"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWrongEmailAndroid -->
+      <class name="testcases.login.android.LoginEmployeeEmailPassAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+          <include name="afterClass"/>
+          <include name="loginwithEmployeeAccount"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginEmployeeEmailPassAndroid -->
+      <class name="testcases.login.iOS.LoginEmployeeEmailPassiOS">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeLoggedIn"/>
+          <include name="setUpPage"/>
+          <include name="setUpAppium"/>
+          <include name="loginwithEmployeeAccount"/>
+        </methods>
+      </class> <!-- testcases.login.iOS.LoginEmployeeEmailPassiOS -->
+      <class name="testcases.login.android.LoginWithGoogleAccountAndroid">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="openGoogleOAuth"/>
+          <include name="afterClass"/>
+          <include name="setUpPage"/>
+          <include name="verifyLoggedIn"/>
+          <include name="afterMethod"/>
+          <include name="loginwithGoogleAccount"/>
+          <include name="setUpAppium"/>
+          <include name="openLoginPage"/>
+        </methods>
+      </class> <!-- testcases.login.android.LoginWithGoogleAccountAndroid -->
+      <class name="testcases.login.iOS.LoginCompanyEmailPassiOS">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="tearDownAppium"/>
+          <include name="loginwithEmployerAccount"/>
+          <include name="verifyEmployerLoggedIn"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- testcases.login.iOS.LoginCompanyEmailPassiOS -->
+    </classes>
+  </test> <!-- C:/Users/dejan.b/IdeaProjects/OpenTempAutomatedTests(failed) -->
+</suite> <!-- Failed suite [Login Test Suite] -->
